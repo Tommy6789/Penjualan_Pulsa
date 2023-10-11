@@ -66,13 +66,13 @@
                 <a href="<?= base_url()?>penjualan/beli_pulsa" class="nav-link">
                 <i class="fas fa-cart-plus"></i>
                   <p>
-                    BELI PULSA
+                    Beli Pulsa/Kouta
                   </p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="<?= base_url()?>penjualan/data_penjualan" class="nav-link">
-                <i class="fas fa-cart-plus"></i>
+                <i class="far fa-folder-open"></i>
                   <p>
                     Data Penjualan
                   </p>

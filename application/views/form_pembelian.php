@@ -39,16 +39,27 @@
             ?>
               <label for="">NOMOR TELEPON</label>
               <input required type="text" class="form-control" name="nomor_telepon">
-              <label for="">NOMINAL</label>
-              <select required class="form-control" name="nominal" id="">
+              <label for="">Pulsa</label>
+              <select class="form-control" name="nominal" id="">
                 <option value="">Pilih Nominal</option>
-                <option value="5000">5.000</option>
-                <option value="10000">10.000</option>
-                <option value="15000">15.000</option>
-                <option value="20000">20.000</option>
-                <option value="25000">25.000</option>
-                <option value="50000">50.000</option>
-                <option value="100000">100.000</option>
+                <option value="5.000">5.000</option>
+                <option value="10.000">10.000</option>
+                <option value="15.000">15.000</option>
+                <option value="20.000">20.000</option>
+                <option value="25.000">25.000</option>
+                <option value="50.000">50.000</option>
+                <option value="100.000">100.000</option>
+              </select>
+              <label for="">KOUTA</label>
+              <select class="form-control" name="nominal" id="">
+                <option value="">Pilih Nominal</option>
+                <option value="500MB 5.000">500MB 5.000</option>
+                <option value="1GB 10.000">1GB 10.000</option>
+                <option value="2GB 15.000">2GB 15.000</option>
+                <option value="3GB 20.000">3GB 20.000</option>
+                <option value="4GB 25.000">4GB 25.000</option>
+                <option value="11GB 50.000">11GB 50.000</option>
+                <option value="45GB 100.000">45GB 100.000</option>
               </select>
             <label for="">TANGGAL PENJUALAN</label>
             <input required class="form-control" type="date" name="tanggal_penjualan" id="">

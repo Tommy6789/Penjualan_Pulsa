@@ -71,7 +71,7 @@ class Penjualan extends CI_Controller {
         }
     public function delete_penjualan()
     {
-        $data = $this->penjualan_model;
+        $data = $this->Penjualan_model;
         $delete = $data->delete($this->input->get('id'));
         if($delete){
             $this->session->set_flashdata('message', 'success delete');

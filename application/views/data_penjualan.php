@@ -28,7 +28,7 @@
             $message = $this->session->flashdata('message');
             if ($message == "success"){
             ?>
-              <script>alert('berhasil merubah')</script>
+              <script>alert('berhasil memasukan')</script>
               <?php
               }else if($message == "success update"){
                 ?>
